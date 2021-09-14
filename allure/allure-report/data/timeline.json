@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-KLNASEN",
+    "children" : [ {
+      "name" : "19520-MainThread",
+      "children" : [ {
+        "name" : "test_with_testcase_link",
+        "uid" : "e6868c00f2c519f4",
+        "parentUid" : "7e8c4396d1977dc3aa444613732e546e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631008122217,
+          "stop" : 1631008122217,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e8c4396d1977dc3aa444613732e546e"
+    } ],
+    "uid" : "be934264aed3845f7bb66a70e2e8031c"
+  } ]
+}

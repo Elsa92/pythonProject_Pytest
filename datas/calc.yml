@@ -1,0 +1,48 @@
+
+datas:
+  - [1,2,3]
+  - [300,400,700]
+  - [0.11,0.22,0.33]
+  - [-1,-2,-3]
+  - [0,1,1]
+#
+ids:
+    ['int','bigint','float','minus','zero']
+
+add:
+  add_success:
+    datas:
+      - [ 1,2,3 ]
+      - [ 300,400,700 ]
+      - [ 0.1,0.2,0.3]
+      - [ -1,-2,-3 ]
+      - [ 0,1,1 ]
+    ids:
+      ['int','bigint','float','minus','zero']
+
+  add_fail:
+    datas:
+      - ['a','b']
+#      - ['中','国']
+      - [0,'a']
+    ids:
+      ['string','int-string']
+
+div:
+  div_success:
+    datas:
+      - [0,1,0]
+      - [2,1,2]
+      - [-1, 2,-0.5]
+
+    ids:
+      ['zero','int','minus']
+
+  div_fail:
+    datas:
+      - [1,0]
+      - [1,'a']
+      - ['a','b']
+#      - ['中','国']
+    ids:
+      ['int-zero', 'int-string','string']
